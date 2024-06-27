@@ -1,0 +1,125 @@
+.full {
+	background-color: black;
+	/*  padding-top: 5px;
+		  padding-bottom: 10px;*/
+	width: 100%;
+	position: fixed;
+	z-index: 9999;
+}
+.lg {
+	text-align: center;
+}
+.te a {
+	cursor: pointer;
+	color: white !important;
+	background-color: black;
+}
+.st {
+	background-color: black;
+	padding-inline-start: 50px;
+	text-align: center;
+}
+.st a {
+	color: white !important;
+}
+.wed {
+	color: black;
+	text-align: center;
+	padding: 20px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	max-width: 780px;
+}
+.wedp {
+	font-size: 20px;
+	margin-top: 6px;
+	font-family: 'Bauer Bodoni W01 Roman';
+}
+.side {
+	color: black;
+	margin-bottom: 1%;
+	margin-right: 10px;
+	margin-top: 1%;
+	font-family: 'Johnston ITC W01 Light';
+	font-size: 16px;
+}
+.ime {
+	color: sandybrown;
+	text-align: center;
+	padding: 20px;
+}
+.im {
+	padding: 20px;
+}
+.le {
+	width: 400px;
+	height: 20px;
+	color: brown;
+}
+.wedt {
+	font-family: 'Johnston ITC W01 Light';
+	font-size: 20px;
+	text-align: center;
+}
+.side1 {
+	color: black;
+	margin-bottom: 1%;
+	margin-right: 10px;
+	margin-top: 2%;
+	font-family: 'Johnston ITC W01 Light';
+	font-size: 12px;
+	text-align: center;
+}
+.he {
+	width: 60px;
+	margin: 0 auto 10px auto;
+	background-color: #BFBFBF;
+	text-align: center;
+	height: 2px;
+}
+.parallex {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5)), url("../images/partyimage/img1.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	width: 100%;
+	padding:120px;
+	background-position: center;
+}
+.ime1 {
+	color: sandybrown;
+	text-align: center;
+	padding: 30px;
+}
+.image1 {
+	width: 100%;
+	border-radius: 50%;
+}
+.rc {
+	margin: 20px;
+	padding-left: 25px;
+}
+.la {
+	color: gray;
+	text-align: center;
+	padding: 20px;
+}
+.fo {
+	background-color: black;
+	color: white;
+}
+.f {
+	color: black;
+	margin: 30px;
+	background-color: mistyrose;
+}
+.tb {
+	color: white;
+}
+.tb1 {
+	font-size: 20px;
+}
+.sub {
+	color: white;
+}
+

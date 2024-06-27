@@ -1,0 +1,60 @@
+.full{
+		background-color: black;
+		/*  padding-top: 5px;
+		  padding-bottom: 10px;*/
+		  width: 100%; 
+		  position:fixed;
+		  z-index:9999;
+          }
+	.lg 
+       { 
+		   text-align: center; 
+       }
+    .te a
+         { 
+			cursor: pointer;
+		     color: white !important;
+			 background-color: black;
+         }
+
+.st {background-color: black; padding-inline-start: 50px;text-align: center;}
+.st a{color: white !important;}
+.bg-img {
+  /* The image used */
+  background-image: url("../images/contact/im2.jpg");
+
+ min-height: 800px;
+	
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+   
+.f{
+    text-align:center;
+    padding:30px;
+}
+.ev
+{
+padding:30px;
+font-family:sans-serif,bold, Arial, Helvetica; 	
+}
+form {                                         
+    margin: 0 auto; 
+    width: 600px; 
+}
+.c{
+	background-color:gray;
+}
+.fo {background-color: black;color: white;}
+
+.tb {color:#270b0e;background-color: mediumpurple;}
+.tb1{font-size:20px;}
+.sub{color:#270b0e;}
+
+
+

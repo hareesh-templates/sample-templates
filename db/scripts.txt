@@ -1,0 +1,53 @@
+ 	CREATE TABLE `cont` (
+ `id` int(50) NOT NULL AUTO_INCREMENT,
+ `Name` varchar(255) NOT NULL,
+ `Address` varchar(255) NOT NULL,
+ `Email` varchar(50) NOT NULL,
+ `Telephone` bigint(50) NOT NULL,
+ `EventDate` date NOT NULL,
+ `Currentdate` date NOT NULL,
+ `Event` varchar(255) NOT NULL,
+ `Comments` varchar(255) NOT NULL,
+ PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
+
+
+
+	CREATE TABLE `login` (
+ `id` int(50) NOT NULL AUTO_INCREMENT,
+ `name` varchar(255) NOT NULL,
+ `password` varchar(255) NOT NULL,
+ PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1
+
+
+CREATE TABLE `party` (
+ `id` int(50) NOT NULL AUTO_INCREMENT,
+ `Name` varchar(255) NOT NULL,
+ `Address` varchar(255) NOT NULL,
+ `Email` varchar(50) NOT NULL,
+ `Telephone` bigint(50) NOT NULL,
+ `EventDate` date NOT NULL,
+ `Currentdate` date NOT NULL,
+ `PartyType` varchar(255) NOT NULL,
+ `Location` varchar(255) NOT NULL,
+ `Budget` varchar(100) NOT NULL,
+ `Comments` varchar(255) NOT NULL,
+ PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
+
+
+CREATE TABLE `wedregister` (
+ `id` int(50) NOT NULL AUTO_INCREMENT,
+ `Name` varchar(50) NOT NULL,
+ `Address` varchar(255) NOT NULL,
+ `Email` varchar(50) NOT NULL,
+ `Telephone` bigint(50) NOT NULL,
+ `EventDate` date NOT NULL,
+ `Currentdate` date NOT NULL,
+ `Religion` varchar(50) NOT NULL,
+ `Options` varchar(255) NOT NULL,
+ `Budget` varchar(100) NOT NULL,
+ `Comments` varchar(255) NOT NULL,
+ PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
