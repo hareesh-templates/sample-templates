@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>
+      javascript practice
+    </title>
+    <style>
+      img {
+        width: 100px;
+      }
+    </style>
+    </style>
+  </head>
+  <body>
+    <img id="one">
+    <img src="/Users/mhari/Downloads/bulb_off.jpeg" alt="" id="srinu">
+    <button onclick="bulb_on()">on</button>
+    <button onclick="bulb_off()">off</button>
+    <script>
+      function bulb_on() {
+        var on = document.getElementById("srinu");
+        on.src = "/Users/mhari/Downloads/bulb_on.jpeg";
+      }
+
+      function bulb_off() {
+        var bb = document.getElementById("srinu");
+        bb.src = "/Users/mhari/Downloads/bulb_off.jpeg";
+      }
+    </script>
+  </body>
+</html>
+
