@@ -1,0 +1,18 @@
+   <script>
+             
+  	$(function() {
+		
+			
+		$( "#curdate" ).datepicker({
+			 	dateFormat: "dd-mm-yy"
+				 
+		 });
+	});
+	</script>
+
+
+<div class="form-group">
+      <label for="date">Currentdate</label>
+		 <input type="text" id="curdate" name="curdate" class="form-control" value="<?php $now = new DateTime();
+			echo $now->format('Y-m-d'); ?>"  required>
+				</div>
