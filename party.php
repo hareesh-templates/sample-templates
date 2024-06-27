@@ -13,7 +13,7 @@ if($_POST['submit']){
  $feedback = $_POST['comment'];
 		 
 }
- echo $query="insert into party(`Name`, `Address`,`Email`,`Telephone`,`EventDate`, `Currentdate`,`PartyType`,`Location`,`Budget`,`Comments`)
+ echo $query="insert into party(`Name`, `Address`,`Email`,`Telephone`,`EventDate`, `Currentdate`,`PartyType`,`Location`,`Budget`,`Feedback`)
  values('".$name."','".$address."','".$email."','".$number."','".$date."','".$currentdate."','".$party."','".$plan."','".$budget."','".$feedback."')";
 $creatTable = mysqli_query($conn, $query);
 

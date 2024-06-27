@@ -9,8 +9,10 @@ if($_POST['submit']){
  $currentdate=$_POST['curdate'];
  $event = $_POST['event'];
  $feedback = $_POST['comment'];
-	}
- echo $query="insert into cont(`Name`, `Address`,`Email`,`Telephone`,`EventDate`,`Currentdate`, `Event`,`Comments`)
+	
+		 
+}
+ echo $query="insert into cont(`Name`, `Address`,`Email`,`Telephone`,`EventDate`,`Currentdate`, `Event`,`Feedback`)
  values('".$name."','".$address."','".$email."','".$number."','".$date."','".$currentdate."','".$event."','".$feedback."')";
 $creatTable = mysqli_query($conn, $query);
 

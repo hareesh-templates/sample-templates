@@ -23,8 +23,7 @@
 		<li class="nav-item">
         <a class="nav-link" href="contact.php">CONTACT US</a>
       </li>
-		 </li>
-		    </ul>
+    </ul>
 				
   </div>
 </nav>

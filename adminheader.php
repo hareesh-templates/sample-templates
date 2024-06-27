@@ -8,7 +8,9 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto ml-auto">
-      
+      <li class="nav-item active">
+        <a class="nav-link" href="index.php">HOME <span class="sr-only">(current)</span></a>
+      </li>
 	  <li class="nav-item">
         <a class="nav-link" href="wedadmin.php">WEDDINGS</a>
       </li>
@@ -20,14 +22,8 @@
         <a class="nav-link" href="contadmin.php">CONTACT US</a>
       </li>
 		<li class="nav-item">
-        <a class="nav-link" href="admin.php">SIGNIN</a>
+        <a class="nav-link" href="index.php">LOGOUT</a>
       </li>
-		<li class="nav-item">
-        <a class="nav-link" href="logout.php">SIGN OUT</a>
-      </li>
-		
-		 </li>
-		
     </ul>
 				
   </div>

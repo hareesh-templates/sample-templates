@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>wedd</title>
+<link rel="stylesheet" href="CSS/wed.css">
 	<link rel="stylesheet" href="CSS/event.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -16,26 +17,9 @@
 <link rel="stylesheet" href="animate.css">
  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-	
-             </head>
-	<body style="background-image: url('images/im3.jpg');">
-		
-	<div class="for1">
-  <h2>King Of The Castle Form</h2>
-  <form action="adminlogin.php" method="post">
-    <div class="form-group">
-      <label for="name">Username:</label>
-      <input type="name" class="form-control" id="name" placeholder="Enter Name" name="name">
-    </div>
-    <div class="form-group">
-      <label for="password">Password: </label>
-      <input type="password" class="form-control" id="password" placeholder="Enter Password" name="password">
-    </div>
-    
-    <input type="submit" class="btn btn-danger" name="submit" value="submit">
-  </form>
-</div>
+       <body>
 
-
+<?php include("adminheader.php") ?>
+		   <?php include("footer.php") ?>
 </body>
 </html>

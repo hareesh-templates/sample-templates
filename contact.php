@@ -107,7 +107,7 @@ If you telephone you will not be put through but directed to email us.
 		</div>
 		<div class="row"><div class="col-md-8">
 			<div class="form-group">
-  <label for="comment">Comments</label>
+  <label for="comment">Description</label>
   <textarea class="form-control" rows="3" id="comment" name="comment"></textarea>
 </div>
 			</div>

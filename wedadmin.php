@@ -12,8 +12,7 @@
 </head>
 
 <body>
-	
-	<?php 
+	<?php
      require("connect.php");
      $studeDetails=mysqli_query($conn,"select * from wedregister");
 ?><?php include("adminheader.php") ?><br><br><br><br><br><br>

@@ -90,17 +90,3 @@
 	background-color: black;
 	color: white;
 }
-
-.for{
-	width: 50%;
-	background-color: chocolate;
-	
-}
-.for1{
-	position: absolute;
-	top: 45%;
-	left:50%;
-	transform : translate(-50%,-50%);
-	color: white;
-		
-}

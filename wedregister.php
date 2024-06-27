@@ -19,7 +19,7 @@ foreach($options as $chk1)
    }  
 
 }
- echo $query="insert into wedregister(`Name`, `Address`,`Email`,`Telephone`,`EventDate`, `Currentdate`,`Religion`,`Options`,`Budget`,`Comments`)
+ echo $query="insert into wedregister(`Name`, `Address`,`Email`,`Telephone`,`EventDate`, `Currentdate`,`Religion`,`Options`,`Budget`,`Feedback`)
  values('".$name."','".$address."','".$email."','".$number."','".$date."','".$currentdate."','".$religion."','".$chk."','".$budget."','".$feedback."')";
 $creatTable = mysqli_query($conn, $query);
 
